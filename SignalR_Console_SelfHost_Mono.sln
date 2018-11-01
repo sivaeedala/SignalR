@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR_Console_SelfHost", "SignalR_Console_SelfHost\SignalR_Console_SelfHost.csproj", "{5BB01BCA-4C5C-4C66-989B-88F5C0C05DF6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR_Console_SelfHost_Mono", "SignalR_Console_SelfHost\SignalR_Console_SelfHost_Mono.csproj", "{5BB01BCA-4C5C-4C66-989B-88F5C0C05DF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
