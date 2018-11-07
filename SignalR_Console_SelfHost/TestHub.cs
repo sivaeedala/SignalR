@@ -14,5 +14,13 @@ namespace SignalR_Console_SelfHost
         {
             Clients.All.PushMessage(message);
         }
+
+        public void InitializePaniniScanner()
+        {
+            Console.WriteLine("Initializing Panini Scanner...Start");
+
+            Panini.PaniniScanner paniniScanner = new Panini.PaniniScanner();
+            paniniScanner.InitializeScanner();
+        }
     }
 }
