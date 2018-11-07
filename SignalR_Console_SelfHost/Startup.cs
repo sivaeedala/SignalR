@@ -17,7 +17,7 @@ namespace SignalR_Console_SelfHost
         public void Configuration(IAppBuilder app)
         {
             app.UseCors(CorsOptions.AllowAll);
-            app.MapSignalR();
+            app.MapSignalR(new Microsoft.AspNet.SignalR.HubConfiguration { EnableJSONP=true});
         }
     }
 }
